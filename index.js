@@ -22,10 +22,9 @@ function add2(n) {
 
   // Feel free to move things around!
 
-function funkyFunction() {
-  var example = "FUNKY!"
-  return function innerFunction () {
-    return example
+var funkyFunction = function() {
+  return function() {
+    return "FUNKY!"
  }
 }
 
